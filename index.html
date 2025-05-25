@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WingOF | Ana Sayfa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<link rel="icon" href="img/favicon.png" type="image/png">     <!-- .png için -->
+    <!-- NAVBAR (Menü Çubuğu) -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="WingofSky Logo"> 
+            <h1>WingOF</h1>
+        </div>
+        <div class="menu">
+            <a href="#home">Ana Sayfa</a>
+            <a href="#features">Özellikler</a>
+            <a href="#rules">Kurallar</a>
+            <a href="#vote">Vote</a>
+        </div>
+    </nav>
+
+    <!-- HERO BÖLÜMÜ (Ana Giriş) -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>SkyBlock'ın Kanatlı Dünyasına Hoş Geldin!</h2>
+            <p>HEM JAVA HEM BEDROCK UYUMLU!</p>
+            <div class="ip-box">
+                <input type="text" value="wingofsky.aternos.me" id="ip" readonly>
+                <button onclick="copyIP()">Kopyala</button>
+            </div>
+ 
+            <div class="buttons">
+                <a href="minecraft://?addServer:wingofsky.aternos.me" class="btn-mc">Minecraft'ı Aç! (Bedrock Edition)</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ÖZELLİKLER BÖLÜMÜ -->
+    <section class="features" id="features">
+        <h2>Neden <span>WingOF?</span></h2>
+        <div class="feature-cards">
+            <div class="card">
+                <i class="fas fa-cloud"></i>
+                <h3>Özel SkyBlock</h3>
+                <p>Eşsiz adalar ve eklentilerle zenginleştirilmiş SkyBlock deneyimi!</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-gift"></i>
+                <h3>Günlük Ödüller</h3>
+                <p>Her gün giriş yap ve hediyeleri kap!</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-feather-alt"></i>
+                <h3>Kanat Skinleri</h3>
+                <p>Sadece burada bulabileceğin özel kanat tasarımları!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER (Alt Bilgi) -->
+    <footer>
+        <p>© 2025 WingOF SkyBlock</p>
+        <div class="social">
+            <a href="https://instagram.com/gurayalty"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com/@gurayalty"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
